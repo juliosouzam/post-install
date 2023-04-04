@@ -1,0 +1,18 @@
+# sudo pacman-mirrors --fasttrack && sudo pacman -Syyuu --no-confirm
+# sudo pacman -S firefox git vim curl base base-devel docker docker-compose docker-buildx nodejs yarn zsh kubectl --no-confirm
+
+# sudo usermod -aG docker juliocesar 
+# systemctl enable docker
+
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# sudo chsh -s /usr/bin/zsh 
+# sudo chsh -s /usr/bin/zsh $USER
+
+# git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
+# git clone https://aur.archlinux.org/visual-studio-code-insiders-bin.git vscode
+# cd vscode && makepkg -sir
+
+# git clone https://aur.archlinux.org/google-chrome.git chrome
+# cd chrome && makepkg -sir
